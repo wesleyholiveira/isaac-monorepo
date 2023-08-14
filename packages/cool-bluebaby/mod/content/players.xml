@@ -1,0 +1,12 @@
+<players root="gfx/characters/costumes/" 
+         portraitroot="gfx/ui/stage/" 
+         nameimageroot="gfx/ui/boss/">
+	<player name="CoolBB" skin="character_coolbb.png"
+          hp="0"
+          armor="4"
+          nameimage="PlayerName_06_BlueBaby.png" 
+          portrait="playerportrait_coolbb.png"
+          skinColor="2"
+          costumeSuffix="bluebaby"
+		  birthright="Stronger spirit" />
+</players>

@@ -1,0 +1,26 @@
+{
+  "name": "isaacs-arsenal",
+  "version": "1.6.8",
+  "description": "Custom items based on existing games weapons.",
+  "keywords": [
+    "isaac",
+    "mod",
+    "rebirth",
+    "afterbirth",
+    "repentance"
+  ],
+  "license": "GPL-3.0",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.18.2",
+    "isaac-typescript-definitions": "^13.0.16",
+    "isaacscript": "^3.6.50",
+    "isaacscript-common": "^30.12.2",
+    "isaacscript-lint": "^4.16.10",
+    "isaacscript-spell": "^1.2.39",
+    "isaacscript-tsconfig": "^4.0.0",
+    "socket.io": "^4.7.1",
+    "typescript": "^5.1.6",
+    "typescript-to-lua": "^1.16.3"
+  }
+}

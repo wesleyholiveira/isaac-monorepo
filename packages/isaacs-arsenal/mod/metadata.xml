@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="https://wofsauge.github.io/isaac-xml-validator/xsd/metadata.xsd" ?>
+<metadata>
+  <name>Isaac's Arsenal</name>
+  <directory>isaacs-arsenal</directory>
+  <description>Custom items based on existing games weapons.</description>
+  <version>1.6.8</version>
+  <visibility />
+</metadata>

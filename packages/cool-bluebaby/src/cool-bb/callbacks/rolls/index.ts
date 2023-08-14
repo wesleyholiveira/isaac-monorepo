@@ -1,0 +1,1 @@
+export { postGetCollectible } from './postGetCollectible';

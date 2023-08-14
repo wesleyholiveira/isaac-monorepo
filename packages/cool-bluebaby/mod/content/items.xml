@@ -1,0 +1,3 @@
+<items gfxroot="gfx/items/" version="1">
+  <active id="1313" name="Lucky Poop" description="Lucky Poop" gfx="collectibles_036_thepoop.png" initcharge="4" maxcharges="4" chargetype="normal" quality="3" />
+</items>

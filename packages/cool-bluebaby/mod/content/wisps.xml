@@ -1,0 +1,11 @@
+<wisps gfxroot="gfx/familiar/wisps/">
+    <color name="flame_blue" r="152" g="330" b="458"/>
+	<color name="core_blue" r="255" g="356" b="510"/>
+	<color name="tear_blue" or="64" og="89" ob="128"/>
+
+    <color name="flame_brown" r="200" g="120" b="120"/>
+	<color name="core_brown" r="208" g="158" b="158"/>
+	<color name="tear_brown" r="128" g="80" b="80"/>
+
+    <wisp id="1313" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_brown" tearColor="tear_blue" coreGfx="poop.png" />
+</wisps>
