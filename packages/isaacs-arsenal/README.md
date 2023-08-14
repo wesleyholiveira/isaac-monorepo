@@ -37,7 +37,7 @@ An item which has **10 unique** crystal tears (effects):
 [flask.webm](https://user-images.githubusercontent.com/2742138/235592133-74c1b8f6-615a-412e-8854-df7628a128e1.webm)
 
 ## Download
-Go to the [Releases](https://github.com/wesleyholiveira/isaac-monorepo/releases/tag/v1.0.0) page and get the newer one zip.
+Go to the [Releases](https://github.com/wesleyholiveira/isaac-monorepo/releases/tag/v1.6.8) page and get the newer one zip.
 
 ## How To Compile (Developers Only)
 
