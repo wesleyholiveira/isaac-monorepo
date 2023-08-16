@@ -1,1 +1,1 @@
-export { postGetCollectible } from './postGetCollectible';
+export { postGetCollectible } from "./postGetCollectible";

@@ -1,3 +1,1 @@
-export const Settings = {
-  
-} as const;
+export const Settings = {} as const;
