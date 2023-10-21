@@ -1,3 +1,3 @@
 export const CollectibleTypeCustom = {
-  LUCKY_POOP: Isaac.GetItemIdByName("Lucky Poop"),
+  LAXATIVE: Isaac.GetItemIdByName("Laxative"),
 } as const;

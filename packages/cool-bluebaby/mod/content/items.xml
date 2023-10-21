@@ -1,3 +1,11 @@
 <items gfxroot="gfx/items/" version="1">
-  <active id="1313" name="Lucky Poop" description="Lucky Poop" gfx="collectibles_036_thepoop.png" initcharge="4" maxcharges="4" chargetype="normal" quality="3" />
+  <active
+    id="1313"
+    name="Laxative"
+    description="Spawn a random dip"
+    gfx="laxative.png"
+    initcharge="2"
+    maxcharges="2"
+    chargetype="normal"
+    quality="3" />
 </items>

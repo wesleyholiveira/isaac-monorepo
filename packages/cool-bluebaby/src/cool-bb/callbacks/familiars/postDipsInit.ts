@@ -15,11 +15,7 @@ function dipInit(familiar: EntityFamiliar) {
   if (players.length > 0) {
     const { dips, MAX_DIPS } = state.persist;
 
-    Isaac.ConsoleOutput(
-      `Quantidade de dips ${state.persist.dips.length} / ${MAX_DIPS}\n`,
-    );
     let i = 0;
-
     for (const dip of dips) {
       if (dip.IsDead()) {
         dip.Remove();
@@ -29,11 +25,23 @@ function dipInit(familiar: EntityFamiliar) {
       i++;
     }
 
-    dips.push(familiar);
+    if (dips.length >= MAX_DIPS) {
+      let d = 0;
+      const dipsToBeRemoved = Math.abs(dips.length - MAX_DIPS);
+      for (const dip of dips.slice(0, dipsToBeRemoved + 1)) {
+        dip.Remove();
+        dips.splice(d, 1);
+        d++;
+      }
 
-    const exceededDips = dips.slice(MAX_DIPS);
-    exceededDips.forEach((e) => e.Remove());
-
-    dips.splice(MAX_DIPS);
+      familiar.Remove();
+    } else {
+      Isaac.ConsoleOutput(
+        `Quantidade de dips ${state.persist.dips.length + 1} / ${MAX_DIPS}, ${
+          familiar.SubType
+        }\n`,
+      );
+      dips.push(familiar);
+    }
   }
 }

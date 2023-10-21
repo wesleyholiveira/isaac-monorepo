@@ -14,7 +14,7 @@ function evaluateCache(player: EntityPlayer, cacheFlag: CacheFlag) {
       }
 
       case CacheFlag.SPEED: {
-        player.MoveSpeed -= 0.25;
+        player.MoveSpeed -= 0.1;
         break;
       }
 

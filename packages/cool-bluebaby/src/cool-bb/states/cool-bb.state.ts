@@ -8,6 +8,7 @@ interface State {
     wisps: Record<Seed, string>;
     tears: Record<Seed, boolean>;
     wispsCounter: number;
+    stageIndex: number;
   };
 }
 
@@ -16,10 +17,11 @@ export const state: State = {
   persist: {
     removedDirtyMind: undefined,
     dips: [],
-    MAX_DIPS: 0,
+    MAX_DIPS: 10,
     shits: [],
     wisps: [],
     tears: {},
     wispsCounter: 0,
+    stageIndex: 0,
   },
 };

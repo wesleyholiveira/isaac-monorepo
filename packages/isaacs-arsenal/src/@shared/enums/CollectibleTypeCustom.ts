@@ -4,4 +4,5 @@ export const CollectibleTypeCustom = {
     "Empty Flask of Wondrous Physick",
   ),
   FLASK_OF_WONDROUS_PHYSICK: Isaac.GetItemIdByName("Flask of Wondrous Physick"),
+  HEAVY_BALL: Isaac.GetItemIdByName("Heavy Ball"),
 } as const;

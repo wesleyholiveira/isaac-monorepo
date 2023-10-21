@@ -1,7 +1,6 @@
 import {
   CollectibleType,
   EntityType,
-  FamiliarVariant,
   GridEntityType,
   ModCallback,
   PoopEntityVariant,
@@ -16,7 +15,6 @@ import {
   getRandomInt,
 } from "isaacscript-common";
 import { CollectibleTypeCustom } from "../../../@shared/enums/CollectibleTypeCustom";
-import { PlayerTypeCustom } from "../../../@shared/enums/PlayerTypeCustom";
 import { state } from "../../states/cool-bb.state";
 
 enum Poop {
@@ -57,8 +55,7 @@ function useItem(
   customVarData: int,
 ) {
   let spawnedEntity: any;
-  if (collectibleType === CollectibleTypeCustom.LUCKY_POOP) {
-    const { dips } = state.persist;
+  if (collectibleType === CollectibleTypeCustom.LAXATIVE) {
     const bonusLuck = (100 * player.Luck) / 15;
     const chance = getRandomInt(0, 100);
     let randomPoop: number =
@@ -67,15 +64,6 @@ function useItem(
     Isaac.ConsoleOutput(`Poop chance: ${chance}, ${bonusLuck}\n`);
     if (bonusLuck + chance >= 80) {
       randomPoop = getRandomArrayElement(POOPS.RARE);
-
-      if (player.GetPlayerType() === PlayerTypeCustom.COOL_BB) {
-        const normalDips = dips.filter(
-          (d) =>
-            d.Variant === FamiliarVariant.DIP &&
-            (d.SubType === 0 || d.SubType === 2),
-        );
-        normalDips.slice(0, 3).forEach((d) => d.Remove());
-      }
     }
 
     spawnedEntity =

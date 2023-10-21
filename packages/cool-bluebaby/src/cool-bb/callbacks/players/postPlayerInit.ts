@@ -14,14 +14,14 @@ function playerInit(player: EntityPlayer) {
   if (player.GetPlayerType() === PlayerTypeCustom.COOL_BB) {
     const itemPool = Game().GetItemPool();
     const luckyPoopItem = Isaac.GetItemConfig().GetCollectible(
-      CollectibleTypeCustom.LUCKY_POOP,
+      CollectibleTypeCustom.LAXATIVE,
     );
     const dirtyMindItem = Isaac.GetItemConfig().GetCollectible(
       CollectibleType.DIRTY_MIND,
     );
 
     player.AddCollectible(
-      CollectibleTypeCustom.LUCKY_POOP,
+      CollectibleTypeCustom.LAXATIVE,
       luckyPoopItem?.MaxCharges ?? 2,
     );
     player.AddCollectible(CollectibleType.DIRTY_MIND);
@@ -31,7 +31,7 @@ function playerInit(player: EntityPlayer) {
     player.AddCacheFlags(CacheFlag.FIRE_DELAY);
 
     player.ShotSpeed -= 0.25;
-    player.MoveSpeed -= 0.25;
+    player.MoveSpeed -= 0.1;
     player.MaxFireDelay++;
 
     itemPool.RemoveCollectible(CollectibleType.DIRTY_MIND);

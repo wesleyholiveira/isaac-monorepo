@@ -1,5 +1,6 @@
 import { FamiliarVariant, ModCallback } from "isaac-typescript-definitions";
 import { getEntityID } from "isaacscript-common";
+import { CollectibleTypeCustom } from "../../../@shared/enums/CollectibleTypeCustom";
 import { state } from "../../states/cool-bb.state";
 
 export function postWispsInit(mod: Mod): void {
@@ -8,7 +9,10 @@ export function postWispsInit(mod: Mod): void {
     (familiar: EntityFamiliar) => {
       const { shits, wisps, wispsCounter } = state.persist;
 
-      if (familiar.SubType === 733 && shits !== undefined) {
+      if (
+        familiar.SubType === CollectibleTypeCustom.LAXATIVE &&
+        shits !== undefined
+      ) {
         wisps[familiar.InitSeed] = shits[wispsCounter] ?? getEntityID(familiar);
         state.persist.wispsCounter++;
       }

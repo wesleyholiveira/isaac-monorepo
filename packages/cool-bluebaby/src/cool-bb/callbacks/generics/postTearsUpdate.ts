@@ -5,6 +5,7 @@ import {
   TearVariant,
 } from "isaac-typescript-definitions";
 import { getRandomInt } from "isaacscript-common";
+import { CollectibleTypeCustom } from "../../../@shared/enums/CollectibleTypeCustom";
 import { state } from "../../states/cool-bb.state";
 
 const POOPS_WISPS: Record<string, { color: Color; flag: TearFlag }> = {
@@ -65,7 +66,7 @@ function tearUpdate(tear: EntityTear) {
     parent !== undefined &&
     familiar !== undefined &&
     familiar.Variant === FamiliarVariant.WISP &&
-    familiar.SubType === 733
+    familiar.SubType === CollectibleTypeCustom.LAXATIVE
   ) {
     const { wisps } = state.persist;
     const shitID = wisps[familiar.InitSeed];
