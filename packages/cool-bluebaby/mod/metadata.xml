@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://wofsauge.github.io/isaac-xml-validator/xsd/metadata.xsd"?>
 <metadata>
   <name>Cool BB</name>
   <directory>cool-bluebaby</directory>
-  <description>cool-bluebaby is a currently a work in progress.</description>
-  <version>1.0.0</version>
-  <visibility />
+  <id>3057450232</id>
+  <description>This is a new character called 'Cool Blue Baby' because he's stronger and cooler than
+    the original 'Blue Baby.'
+
+    He has unique skills and a new active item that allows him to summon a wide variety of dips</description>
+  <version>1.1.2</version>
+  <visibility>Public</visibility>
+  <tag id="Lua" />
+  <tag id="Items" />
+  <tag id="Player Characters" />
 </metadata>

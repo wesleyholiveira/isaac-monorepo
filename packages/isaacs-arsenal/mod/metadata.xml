@@ -1,9 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://wofsauge.github.io/isaac-xml-validator/xsd/metadata.xsd" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://wofsauge.github.io/isaac-xml-validator/xsd/metadata.xsd"?>
 <metadata>
-  <name>Isaac's Arsenal</name>
+  <name>Isaacs Arsenal</name>
   <directory>isaacs-arsenal</directory>
-  <description>Custom items based on existing games weapons.</description>
-  <version>1.6.8</version>
+  <description>This mod contains:
+
+    True Ice Bow:
+    A rechargeable active item which fires a freezing tear in a cone (scales with tears).
+    
+    Flask of Wondrous Physick:
+    An item which has 10 unique crystal tears (effects):
+    
+    - Flame Cracked Tear: adds the Fire Mind effect (rare drop)
+    - Strength Crystal Tear: adds Isaac's damage (granted drop)
+    - Dexterity Crystal Tear: adds Isaac's tears (granted drop)
+    - Crimson Crystal Tear: restores one of Isaac's red heart containers (granted drop)
+    - Thorny Cracked Tear: has an effect similar to Dead Eye's item (rare drop)
+    - Lightning Cracked Tear: adds the Jacob's Ladder effect (rare drop)
+    - Malachite Shattered Tear: spawns a custom familiar called "Malachite" (rare drop)
+    - Winged Crystal Tear: adds an extra crystal tears slot (very rare drop)
+    - Holy Crystal Tear: adds the temporary protection of Holy Mantle (almost granted drop)
+    - Cerulean Tear: has a chance to drop a full or half soul heart (almost granted drop)
+    - Ruptured Tear: BOOOOOM (almost granted drop)</description>
+  <version>1.6.9</version>
   <visibility />
 </metadata>

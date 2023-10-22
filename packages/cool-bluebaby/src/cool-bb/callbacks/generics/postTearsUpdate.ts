@@ -50,7 +50,7 @@ const POOPS_WISPS: Record<string, { color: Color; flag: TearFlag }> = {
 export function postTearsUpdate(mod: Mod): void {
   mod.AddCallback(ModCallback.POST_TEAR_INIT, (tear: EntityTear) => {
     state.persist.tears[tear.InitSeed] = false;
-    const chance = getRandomInt(0, 100);
+    const chance = getRandomInt(0, 100, undefined);
     if (chance !== 0 && chance >= 85) {
       state.persist.tears[tear.InitSeed] = true;
     }

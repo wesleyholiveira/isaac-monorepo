@@ -57,13 +57,13 @@ function useItem(
   let spawnedEntity: any;
   if (collectibleType === CollectibleTypeCustom.LAXATIVE) {
     const bonusLuck = (100 * player.Luck) / 15;
-    const chance = getRandomInt(0, 100);
+    const chance = getRandomInt(0, 100, undefined);
     let randomPoop: number =
-      chance === 0 ? 0 : getRandomArrayElement(POOPS.NORMAL);
+      chance === 0 ? 0 : getRandomArrayElement(POOPS.NORMAL, undefined);
 
     Isaac.ConsoleOutput(`Poop chance: ${chance}, ${bonusLuck}\n`);
     if (bonusLuck + chance >= 80) {
-      randomPoop = getRandomArrayElement(POOPS.RARE);
+      randomPoop = getRandomArrayElement(POOPS.RARE, undefined);
     }
 
     spawnedEntity =

@@ -1000,7 +1000,7 @@
   resolved "https://registry.npmjs.org/@types/semver/-/semver-7.5.0.tgz"
   integrity sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==
 
-"@typescript-eslint/eslint-plugin@^6.7.2", "@typescript-eslint/eslint-plugin@^6.8.0":
+"@typescript-eslint/eslint-plugin@^6.8.0":
   version "6.8.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.8.0.tgz"
   integrity sha512-GosF4238Tkes2SHPQ1i8f6rMtG6zlKwMEB0abqSJ3Npvos+doIlc/ATG+vX1G9coDF3Ex78zM3heXHLyWEwLUw==
@@ -1017,7 +1017,7 @@
     semver "^7.5.4"
     ts-api-utils "^1.0.1"
 
-"@typescript-eslint/parser@^6.7.2", "@typescript-eslint/parser@^6.8.0":
+"@typescript-eslint/parser@^6.8.0":
   version "6.8.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-6.8.0.tgz"
   integrity sha512-5tNs6Bw0j6BdWuP8Fx+VH4G9fEPDxnVI7yH1IAPkQH5RUtvKwRoqdecAPdQXv4rSOADAaz1LFBZvZG7VbXivSg==
@@ -1955,7 +1955,7 @@ cspell-trie-lib@7.3.8:
     "@cspell/cspell-types" "7.3.8"
     gensequence "^6.0.0"
 
-cspell@^7.3.6, cspell@^7.3.8:
+cspell@^7.3.8:
   version "7.3.8"
   resolved "https://registry.npmjs.org/cspell/-/cspell-7.3.8.tgz"
   integrity sha512-8AkqsBQAMsKYV5XyJLB6rBs5hgspL4+MPOg6mBKG2j5EvQgRVc6dIfAPWDNLpIeW2a3+7K5BIWqKHapKPeiknQ==
@@ -2331,7 +2331,7 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-isaacscript@^4.3.0, eslint-config-isaacscript@^4.7.0:
+eslint-config-isaacscript@^4.7.0:
   version "4.7.0"
   resolved "https://registry.npmjs.org/eslint-config-isaacscript/-/eslint-config-isaacscript-4.7.0.tgz"
   integrity sha512-Beboj7uh4CK9gfpFhtXdHj13mOtVQuLzsvH/yUR6VR+kCzYZVwDBxL1Sd74jXVCDsSdEgU00v/JpYXV/yAi+BQ==
@@ -2408,7 +2408,7 @@ eslint-plugin-eslint-comments@^3.2.0:
     semver "^6.3.1"
     tsconfig-paths "^3.14.2"
 
-eslint-plugin-isaacscript@^3.5.5, eslint-plugin-isaacscript@^3.5.6:
+eslint-plugin-isaacscript@^3.5.6:
   version "3.5.6"
   resolved "https://registry.npmjs.org/eslint-plugin-isaacscript/-/eslint-plugin-isaacscript-3.5.6.tgz"
   integrity sha512-iUs9cu9EvsdUHpZlz6DvmVimIfbxE3fJvYHBM2Nchrynaskiqz4420124IbF36wQQfcnX4jAgsSeBwn3HeIzrQ==
@@ -2432,7 +2432,7 @@ eslint-plugin-jsdoc@^46.8.2:
     semver "^7.5.4"
     spdx-expression-parse "^3.0.1"
 
-eslint-plugin-n@^16.1.0, eslint-plugin-n@^16.2.0:
+eslint-plugin-n@^16.2.0:
   version "16.2.0"
   resolved "https://registry.npmjs.org/eslint-plugin-n/-/eslint-plugin-n-16.2.0.tgz"
   integrity sha512-AQER2jEyQOt1LG6JkGJCCIFotzmlcCZFur2wdKrp1JX2cNotC7Ae0BcD/4lLv3lUAArM9uNS8z/fsvXTd0L71g==
@@ -2499,7 +2499,7 @@ eslint-visitor-keys@^3.3.0, eslint-visitor-keys@^3.4.1, eslint-visitor-keys@^3.4
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz"
   integrity sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==
 
-eslint@^8.50.0, eslint@^8.51.0:
+eslint@^8.51.0:
   version "8.52.0"
   resolved "https://registry.npmjs.org/eslint/-/eslint-8.52.0.tgz"
   integrity sha512-zh/JHnaixqHZsolRB/w9/02akBk9EPrOs9JwcTP2ek7yL5bVvXuRariiaAjjoJ5DvuwQ1WAE/HsMz+w17YgBCg==
@@ -3599,13 +3599,6 @@ is-yarn-global@^0.4.0:
   resolved "https://registry.npmjs.org/is-yarn-global/-/is-yarn-global-0.4.1.tgz"
   integrity sha512-/kppl+R+LO5VmhYSEWARUFjodS25D68gvj8W7z0I7OWhUla5xWu8KL6CtB2V0R6yqhnRgbcaREMr4EEM6htLPQ==
 
-isaac-typescript-definitions@^13.0.21:
-  version "13.0.21"
-  resolved "https://registry.npmjs.org/isaac-typescript-definitions/-/isaac-typescript-definitions-13.0.21.tgz"
-  integrity sha512-QsXD7jWyZR55rxjGbfUT8EZS6PhJOAXOYNMwqCFysXFrsdjOohqx99lijy1Gl/Qw79g/QethOHSSL/R3HmVRGw==
-  dependencies:
-    lua-types "^2.13.1"
-
 isaac-typescript-definitions@^36.0.0:
   version "36.0.0"
   resolved "https://registry.npmjs.org/isaac-typescript-definitions/-/isaac-typescript-definitions-36.0.0.tgz"
@@ -3618,47 +3611,12 @@ isaacscript-common-ts@^11.2.0:
   resolved "https://registry.npmjs.org/isaacscript-common-ts/-/isaacscript-common-ts-11.3.0.tgz"
   integrity sha512-Y5uqk8pu6WZsV7poIcu4/MHf9uNuAnVkxfxMHwLC/uV8ElwyO4ytgmL1hINHbTG6Ct4DAHaCh7GuD88V7WGjzQ==
 
-isaacscript-common@^30.12.8:
-  version "30.12.8"
-  resolved "https://registry.npmjs.org/isaacscript-common/-/isaacscript-common-30.12.8.tgz"
-  integrity sha512-vI4p+EjZErmVssC71ZwrWCWFc+q77iaQOZH1SYrfwmdLHSI3o0jRTf7jD0up4N4Qy6+WOs2XS2T62X0Fw29XyA==
-  dependencies:
-    isaac-typescript-definitions "^13.0.21"
-
 isaacscript-common@^72.5.0:
   version "72.5.0"
   resolved "https://registry.npmjs.org/isaacscript-common/-/isaacscript-common-72.5.0.tgz"
   integrity sha512-NJAIL0aszSWttA4lEibJSGca+Ac3UBvQMJHDl7pZF2a5wDTM8G6c23oue/sxfliL8dH8zlcEN8Y4BqF0VcrHgA==
   dependencies:
     isaac-typescript-definitions "^36.0.0"
-
-isaacscript-lint@^5.1.10:
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/isaacscript-lint/-/isaacscript-lint-5.11.0.tgz#701c470a9c9647bbe8a42234c5b069fe77998bcf"
-  integrity sha512-fG6dj9izAROBfHtZVfGXQHeWZiPhEUiY0sTrMs1TD87EOUAYR2/wela4rbGrZ7YLLJJalhP4w8nKLgMIpJXdjA==
-  dependencies:
-    "@prettier/plugin-xml" "^3.2.1"
-    "@typescript-eslint/eslint-plugin" "^6.7.2"
-    "@typescript-eslint/parser" "^6.7.2"
-    cspell "^7.3.6"
-    cspell-check-unused-words "^1.0.6"
-    eslint "^8.50.0"
-    eslint-config-isaacscript "^4.3.0"
-    eslint-config-prettier "^9.0.0"
-    eslint-plugin-deprecation "^2.0.0"
-    eslint-plugin-eslint-comments "^3.2.0"
-    eslint-plugin-import "npm:eslint-plugin-i@latest"
-    eslint-plugin-isaacscript "^3.5.5"
-    eslint-plugin-jsdoc "^46.8.2"
-    eslint-plugin-n "^16.1.0"
-    eslint-plugin-no-autofix "^1.2.3"
-    eslint-plugin-only-warn "^1.1.0"
-    eslint-plugin-unicorn "^48.0.1"
-    knip "^2.27.1"
-    prettier "^3.0.3"
-    prettier-plugin-organize-imports "^3.2.3"
-    prettier-plugin-packagejson "^2.4.5"
-    ts-prune-2 "^0.10.7"
 
 isaacscript-lint@^6.2.0:
   version "6.2.0"
@@ -3688,12 +3646,12 @@ isaacscript-lint@^6.2.0:
     prettier-plugin-packagejson "^2.4.6"
     ts-prune-2 "^0.10.7"
 
-isaacscript-spell@^1.2.41, isaacscript-spell@^1.6.0:
+isaacscript-spell@^1.6.0:
   version "1.6.0"
   resolved "https://registry.npmjs.org/isaacscript-spell/-/isaacscript-spell-1.6.0.tgz"
   integrity sha512-AkRG2LV8mnl9CX92nV9WkIQANspiWFTKN35l05EYIJ/LGzNnlCcjcL4EEJIMYNw3SYbX2IE+trOZwCHB/urbWQ==
 
-isaacscript-tsconfig@^4.0.0, isaacscript-tsconfig@^4.1.1:
+isaacscript-tsconfig@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/isaacscript-tsconfig/-/isaacscript-tsconfig-4.1.1.tgz"
   integrity sha512-bLvXep8ZXTKXqGAdvPxlEQczC9MsAWhlbySOmvPto+O8KTsGsem7KfTO11Vi3TTQ8Ee5lrGRJsyBQcvWR06RnA==
@@ -3701,7 +3659,7 @@ isaacscript-tsconfig@^4.0.0, isaacscript-tsconfig@^4.1.1:
     "@tsconfig/node-lts" "^18.12.5"
     "@tsconfig/strictest" "^2.0.2"
 
-isaacscript@^3.15.2, isaacscript@^3.6.55:
+isaacscript@^3.15.2:
   version "3.15.2"
   resolved "https://registry.npmjs.org/isaacscript/-/isaacscript-3.15.2.tgz"
   integrity sha512-6FOCHaBI69zB/8fVtDzqRL1xVTfcw+Io8AxyMfYgNh3TZ46HKbCHqcVvkh/oqA1dSDdrNd3yJCo4CvHdHezFwA==
@@ -3901,7 +3859,7 @@ kleur@^4.0.1:
   resolved "https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz"
   integrity sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==
 
-knip@^2.27.1, knip@^2.33.4:
+knip@^2.33.4:
   version "2.35.0"
   resolved "https://registry.npmjs.org/knip/-/knip-2.35.0.tgz"
   integrity sha512-fHrSPC2bJvjDjzp/a6toJO4M6ukVgRnPApsxuuj7w/BsZw3gENkbLNKQcnT9oe6u6206/AFkKqxYYrz24fnNag==
@@ -4896,7 +4854,7 @@ prettier-plugin-organize-imports@^3.2.3:
   resolved "https://registry.npmjs.org/prettier-plugin-organize-imports/-/prettier-plugin-organize-imports-3.2.3.tgz"
   integrity sha512-KFvk8C/zGyvUaE3RvxN2MhCLwzV6OBbFSkwZ2OamCrs9ZY4i5L77jQ/w4UmUr+lqX8qbaqVq6bZZkApn+IgJSg==
 
-prettier-plugin-packagejson@^2.4.5, prettier-plugin-packagejson@^2.4.6:
+prettier-plugin-packagejson@^2.4.6:
   version "2.4.6"
   resolved "https://registry.npmjs.org/prettier-plugin-packagejson/-/prettier-plugin-packagejson-2.4.6.tgz"
   integrity sha512-5JGfzkJRL0DLNyhwmiAV9mV0hZLHDwddFCs2lc9CNxOChpoWUQVe8K4qTMktmevmDlMpok2uT10nvHUyU59sNw==
@@ -5914,7 +5872,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript-to-lua@^1.17.0, typescript-to-lua@^1.20.1:
+typescript-to-lua@^1.20.1:
   version "1.20.1"
   resolved "https://registry.npmjs.org/typescript-to-lua/-/typescript-to-lua-1.20.1.tgz"
   integrity sha512-ca4gsRRKYSl/XGTxr+lO/i9CxRZHQuaOfP509jMoo1TBJ+4UGW6Krpk8biKyZWCRRvRLyI01uf62/cospW6xrQ==
@@ -5925,7 +5883,7 @@ typescript-to-lua@^1.17.0, typescript-to-lua@^1.20.1:
     resolve "^1.15.1"
     source-map "^0.7.3"
 
-typescript@^5.0.2, typescript@^5.1.6, typescript@^5.2.2:
+typescript@^5.0.2, typescript@^5.2.2:
   version "5.2.2"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.2.2.tgz"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
