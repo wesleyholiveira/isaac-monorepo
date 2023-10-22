@@ -1,4 +1,4 @@
-import { TearFlag, TearVariant } from "isaac-typescript-definitions";
+import type { TearFlag, TearVariant } from "isaac-typescript-definitions";
 
 export interface IEffect {
   charge: number;

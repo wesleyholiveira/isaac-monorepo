@@ -19,6 +19,7 @@
       "@tib/*": ["./src/TrueIceBow/*"],
       "@fowp/*": ["./src/FlaskWondrousPhysick/*"],
     },
+    "strictNullChecks": true
   },
 
   // TypeScriptToLua settings
