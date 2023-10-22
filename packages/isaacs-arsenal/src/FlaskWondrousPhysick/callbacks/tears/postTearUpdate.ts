@@ -24,7 +24,7 @@ export function postTearUpdate(mod: Mod): void {
           filteredWisps.length > 0 &&
           tear.GetData()["proc"] === undefined
         ) {
-          const chance = getRandomInt(1, 100);
+          const chance = getRandomInt(1, 100, undefined);
           const cTear = Color2ID(familiar.GetColor());
           const effect = WispEffects[cTear];
 

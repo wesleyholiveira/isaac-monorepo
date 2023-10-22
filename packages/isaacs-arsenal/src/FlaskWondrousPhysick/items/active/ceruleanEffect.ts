@@ -4,10 +4,10 @@ import {
   HeartSubType,
   PickupVariant,
 } from "isaac-typescript-definitions";
-import { getRandomInt, VectorZero } from "isaacscript-common";
+import { VectorZero, getRandomInt } from "isaacscript-common";
 
 export function ceruleanEffect(player: EntityPlayer): EffectResult {
-  const chance = getRandomInt(1, 100);
+  const chance = getRandomInt(1, 100, undefined);
 
   let soulHeart = HeartSubType.SOUL;
   if (chance <= 50) {

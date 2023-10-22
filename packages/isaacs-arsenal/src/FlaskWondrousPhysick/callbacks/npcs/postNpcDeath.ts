@@ -6,10 +6,10 @@ import {
   PickupVariant,
 } from "isaac-typescript-definitions";
 import {
+  VectorZero,
   getRandomArrayElement,
   getRandomInt,
   getRoomItemPoolType,
-  VectorZero,
 } from "isaacscript-common";
 
 import { PlayerEffects } from "@fowp/items/player.effects";
@@ -36,7 +36,7 @@ export function postNpcDeath(mod: Mod): void {
         slots.length > 0 &&
         droppedItems.length !== items.length
       ) {
-        const chance = getRandomInt(0, 100);
+        const chance = getRandomInt(0, 100, undefined);
 
         if (chance !== 0) {
           for (const rarity of rarities) {
@@ -52,7 +52,10 @@ export function postNpcDeath(mod: Mod): void {
                   ),
               );
               if (crystalTearsObtained.length > 0) {
-                const item = getRandomArrayElement(crystalTearsObtained);
+                const item = getRandomArrayElement(
+                  crystalTearsObtained,
+                  undefined,
+                );
                 const id = parseInt(item[0], 10);
 
                 Isaac.Spawn(

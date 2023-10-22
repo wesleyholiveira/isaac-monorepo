@@ -2,14 +2,23 @@ import { PlayerEffects } from "@fowp/items/player.effects";
 import { FOWPState } from "@fowp/states/fowpState";
 import { CollectibleTypeCustom } from "@shared/enums/CollectibleTypeCustom";
 import { Rarity } from "@shared/enums/Rarity";
-import { CollectibleType, EntityType, ModCallback, PickupVariant } from "isaac-typescript-definitions";
-import { VectorZero, getRandomArrayElement, itemConfig } from "isaacscript-common";
+import {
+  CollectibleType,
+  EntityType,
+  ModCallback,
+  PickupVariant,
+} from "isaac-typescript-definitions";
+import {
+  VectorZero,
+  getRandomArrayElement,
+  itemConfig,
+} from "isaacscript-common";
 
 export function postEffectUpdate(mod: Mod): void {
   const trinkets = Object.entries(PlayerEffects).filter(
     ([_, trinket]) => trinket.rarity === Rarity.GRANTED,
   );
-  
+
   const defaultCharge =
     itemConfig.GetCollectible(CollectibleTypeCustom.FLASK_OF_WONDROUS_PHYSICK)
       ?.MaxCharges ?? 4;
@@ -24,17 +33,17 @@ export function postEffectUpdate(mod: Mod): void {
       FOWPState.persistent.frameCount = frame;
     }
 
-    if (player.HasCollectible(CollectibleTypeCustom.FLASK_OF_WONDROUS_PHYSICK)) {
+    if (
+      player.HasCollectible(CollectibleTypeCustom.FLASK_OF_WONDROUS_PHYSICK)
+    ) {
       const { playerID, statsPlayer } = FOWPState.persistent;
       const stats = statsPlayer[playerID];
 
       if (stats !== undefined) {
         const { droppedItems } = stats;
 
-        if (
-          droppedItems.length < 1
-        ) {
-          const [randomItem] = getRandomArrayElement(trinkets);
+        if (droppedItems.length < 1) {
+          const [randomItem] = getRandomArrayElement(trinkets, undefined);
           const id = parseInt(randomItem, 10);
           Isaac.Spawn(
             EntityType.PICKUP,
