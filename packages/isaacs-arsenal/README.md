@@ -3,11 +3,14 @@
 Isaac's Arsenal is a mod for _[The Binding of Isaac: Repentance](https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/)_, written in [TypeScript](https://www.typescriptlang.org/) using the [IsaacScript](https://isaacscript.github.io/) framework.
 
 # What's in this mod?
+
 For now just two mods:
+
 - **True Ice Bow** (A bow based on league of legends item)
 - **Flask of Wondrouds Physick** (A item based on Elden's Ring item)
 
 ## True Ice Bow
+
 A rechargeable active item which fires a freezing tear in a cone (scales with tears).
 
 - [x] Synergy with Bethany.
@@ -15,8 +18,8 @@ A rechargeable active item which fires a freezing tear in a cone (scales with te
 
 [icebow.webm](https://user-images.githubusercontent.com/2742138/235591424-21de75df-7a32-4b79-b887-d8255af75eb3.webm)
 
-
 ## Flask of Wondrous Physick
+
 An item which has **10 unique** crystal tears (effects):
 
 - **Flame Cracked Tear**: adds the Fire Mind effect (rare drop)
@@ -37,6 +40,7 @@ An item which has **10 unique** crystal tears (effects):
 [flask.webm](https://user-images.githubusercontent.com/2742138/235592133-74c1b8f6-615a-412e-8854-df7628a128e1.webm)
 
 ## Download
+
 Go to the [Releases](https://github.com/wesleyholiveira/isaac-monorepo/releases/tag/v1.6.8) page and get the newer one zip.
 
 ## How To Compile (Developers Only)
