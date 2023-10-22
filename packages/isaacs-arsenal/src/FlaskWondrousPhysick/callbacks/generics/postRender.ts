@@ -3,9 +3,9 @@ import { Settings } from "@shared/config";
 import { CollectibleTypeCustom } from "@shared/enums/CollectibleTypeCustom";
 import { ModCallback, PlayerType } from "isaac-typescript-definitions";
 import {
+  PlayerIndex,
   getPlayerFromIndex,
   getPlayerIndexVanilla,
-  PlayerIndex,
 } from "isaacscript-common";
 
 export function postRender(mod: Mod): void {

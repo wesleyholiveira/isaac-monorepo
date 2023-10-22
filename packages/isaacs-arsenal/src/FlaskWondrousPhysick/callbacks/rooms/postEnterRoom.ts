@@ -6,9 +6,9 @@ import {
   TearFlag,
 } from "isaac-typescript-definitions";
 import {
+  PlayerIndex,
   getPlayerFromIndex,
   hasFlag,
-  PlayerIndex,
   removeFlag,
 } from "isaacscript-common";
 

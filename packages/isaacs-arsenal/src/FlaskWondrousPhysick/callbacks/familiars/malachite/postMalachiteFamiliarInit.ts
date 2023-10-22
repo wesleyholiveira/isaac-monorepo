@@ -2,9 +2,9 @@ import { FOWPState } from "@fowp/states/fowpState";
 import { FamiliarVariantCustom } from "@shared/enums/FamiliarVariantCustom";
 import { FamiliarVariant, ModCallback } from "isaac-typescript-definitions";
 import {
+  VectorZero,
   getPlayerFromEntity,
   getPlayerIndex,
-  VectorZero,
 } from "isaacscript-common";
 
 export function postMalachiteFamiliarInit(mod: Mod): void {

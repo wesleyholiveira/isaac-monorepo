@@ -1,6 +1,6 @@
 import { FOWPState } from "@fowp/states/fowpState";
 import { ModCallback, TearVariant } from "isaac-typescript-definitions";
-import { getPlayerIndex, PlayerIndex } from "isaacscript-common";
+import { PlayerIndex, getPlayerIndex } from "isaacscript-common";
 
 export function postFireTear(mod: Mod): void {
   mod.AddCallback(ModCallback.POST_FIRE_TEAR, (tear: EntityTear) => {

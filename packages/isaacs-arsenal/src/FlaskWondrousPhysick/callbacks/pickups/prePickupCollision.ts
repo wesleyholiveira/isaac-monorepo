@@ -9,7 +9,7 @@ import {
   PlayerType,
   TrinketType,
 } from "isaac-typescript-definitions";
-import { getPlayerIndex, itemConfig, VectorZero } from "isaacscript-common";
+import { VectorZero, getPlayerIndex, itemConfig } from "isaacscript-common";
 
 export function prePickupCollision(mod: Mod): void {
   mod.AddCallback(

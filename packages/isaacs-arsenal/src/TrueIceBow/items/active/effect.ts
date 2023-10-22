@@ -1,6 +1,10 @@
 import { Calculus } from "@shared/helpers/Calculus";
 import { TibState } from "@tib/states/tibState";
-import { CollectibleType, TearFlag, TearVariant } from "isaac-typescript-definitions";
+import {
+  CollectibleType,
+  TearFlag,
+  TearVariant,
+} from "isaac-typescript-definitions";
 import { getPlayerIndex } from "isaacscript-common/dist/src/functions/playerIndex";
 
 const GetCosMovementAngle = (coords: string): number => {
@@ -47,11 +51,12 @@ export function trueIceBowEffect(
     const { baseMaxFireDelay } = state;
     let currentBaseMaxFireDelay = baseMaxFireDelay;
 
-    if (player.MaxFireDelay > currentBaseMaxFireDelay && (
-      player.HasCollectible(CollectibleType.TWENTY_TWENTY) ||
-      player.HasCollectible(CollectibleType.INNER_EYE) ||
-      player.HasCollectible(CollectibleType.MUTANT_SPIDER) 
-    )) {
+    if (
+      player.MaxFireDelay > currentBaseMaxFireDelay &&
+      (player.HasCollectible(CollectibleType.TWENTY_TWENTY) ||
+        player.HasCollectible(CollectibleType.INNER_EYE) ||
+        player.HasCollectible(CollectibleType.MUTANT_SPIDER))
+    ) {
       currentBaseMaxFireDelay = player.MaxFireDelay;
     }
 

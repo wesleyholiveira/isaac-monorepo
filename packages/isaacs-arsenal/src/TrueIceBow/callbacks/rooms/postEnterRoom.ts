@@ -6,9 +6,9 @@ import {
   ModCallback,
 } from "isaac-typescript-definitions";
 import {
+  PlayerIndex,
   getPlayerFamiliars,
   getPlayerFromIndex,
-  PlayerIndex,
 } from "isaacscript-common";
 
 export function postEnterRoom(mod: Mod): void {
